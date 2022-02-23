@@ -19,21 +19,21 @@ monitors:
     name: jonbeckman.com
     description: 'Personal website and blog'
     url: 'https://jonbeckman.com/'
-    method: GET 
+    method: GET
     expectStatus: 200
     followRedirect: false
 
   - id: ha-jonbeckman-com
     name: ha.jonbeckman.com
     description: 'SmartHome Gateway'
-    url: 'https://www.jonbeckman.com'
+    url: 'https://ha.jonbeckman.com'
     method: GET
     expectStatus: 200
     linkable: false
 
   - id: tufftoken-io
     name: tufftoken.io
-    description: 'The World's First VBT'
+    description: "The World's First VBT"
     url: 'https://tufftoken.io'
     method: GET
     expectStatus: 200

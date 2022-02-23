@@ -134,3 +134,8 @@ worker/
 out/
 package-lock.json
 public/style.css
+
+
+# Intellij
+.idea/
+*.iml
