@@ -6,7 +6,7 @@ settings:
   collectResponseTimes: true
 
   allmonitorsOperational: 'All Systems Operational'
-  notAllmonitorsOperational: 'Not All Systems Operational'
+  notAllmonitorsOperational: 'Potential Service Disruption'
   monitorLabelOperational: 'Operational'
   monitorLabelNotOperational: 'Not Operational'
   monitorLabelNoData: 'No data'
@@ -26,6 +26,14 @@ monitors:
   - id: ha-jonbeckman-com
     name: ha.jonbeckman.com
     description: 'SmartHome Gateway'
-    url: 'https://ha.jonbeckman.com'
+    url: 'https://www.jonbeckman.com'
+    method: GET
+    expectStatus: 200
+    linkable: false
+
+  - id: tufftoken-io
+    name: tufftoken.io
+    description: 'The World's First VBT'
+    url: 'https://tufftoken.io'
     method: GET
     expectStatus: 200
