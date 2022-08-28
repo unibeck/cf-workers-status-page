@@ -25,15 +25,15 @@ monitors:
 
   - id: ha-jonbeckman-com
     name: ha.jonbeckman.com
-    description: 'SmartHome Gateway'
+    description: 'Smart Home Gateway'
     url: 'https://ha.jonbeckman.com'
     method: GET
     expectStatus: 200
     linkable: false
 
-  - id: tufftoken-io
-    name: tufftoken.io
+  - id: tuffdao-io
+    name: tuffdao.io
     description: "The World's First VBT"
-    url: 'https://tufftoken.io'
+    url: 'https://tuffdao.io'
     method: GET
     expectStatus: 200
