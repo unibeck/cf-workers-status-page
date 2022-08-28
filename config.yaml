@@ -23,7 +23,7 @@ monitors:
     expectStatus: 200
     followRedirect: false
 
-  - id: ha-jonbeckman-com
+  - id: homeassistant-jonbeckman-com
     name: ha.jonbeckman.com
     description: 'Smart Home'
     url: 'https://ha.jonbeckman.com'
