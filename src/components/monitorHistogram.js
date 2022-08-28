@@ -15,7 +15,7 @@ export default function MonitorHistogram({ monitorId, kvMonitor }) {
         date.setDate(date.getDate() + 1)
         const dayInHistogram = date.toISOString().split('T')[0]
 
-        let bg = ''
+        let bg = 'green'
         let dayInHistogramLabel = config.settings.dayInHistogramNoData
 
         // filter all dates before first check, then check the rest
