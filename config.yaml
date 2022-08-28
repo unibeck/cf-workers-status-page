@@ -25,7 +25,7 @@ monitors:
 
   - id: ha-jonbeckman-com
     name: ha.jonbeckman.com
-    description: 'Smart Home Gateway'
+    description: 'Smart Home'
     url: 'https://ha.jonbeckman.com'
     method: GET
     expectStatus: 200
